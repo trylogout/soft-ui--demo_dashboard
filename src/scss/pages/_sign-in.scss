@@ -1,0 +1,37 @@
+// Sign In Page
+.sign-in {
+    padding: 0px 20px;
+	.col-img img {
+		width: 100%;
+		max-width: 500px;
+		margin: auto;
+		display: block;
+
+		@media( min-width: $lg) {
+			margin: 0;
+		}
+	}
+	.col-form .ant-switch {
+		margin-right: 5px;
+	}
+	.ant-form-item-label {
+		line-height: 28px;
+	}
+	.ant-form-item label {
+		font-size: 13px;
+		color: $color-gray-12;
+	}
+	h5{
+		font-size: 14px;
+		line-height: 1.16667;
+		font-weight: 400;
+		letter-spacing: .009em;
+	}
+	h1{
+		font-size: 24px;
+		line-height: 1.1;
+		font-weight: 700;
+		letter-spacing: 0;
+	}
+}
+// / Sign In Page
